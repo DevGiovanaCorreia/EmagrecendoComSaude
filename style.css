@@ -4,67 +4,96 @@
   box-sizing: border-box;
 }
 
-/* ESTILO GERAL */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f6f5;
   color: #333;
   line-height: 1.6;
+  margin: 0;
 }
 
-/* CONTAINER PADRÃO */
-header, main, footer {
+
+ main, footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* HEADER */
-header {
-  background-color: #33439e;
-  color: white;
-  border-radius: 0 0 8px 8px;
-}
 
-header h1 {
+.header {
+  width: 100%;
+  background-color: #f4f6f5;
+  
+  box-shadow: 0px 4px 10px rgb(0, 0, 0,0.2);
+  
+
+  
+}
+ .header-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  
+ }
+
+header > h1 {
   margin-bottom: 10px;
+  color: rgb(255, 72, 0);
+  text-shadow: 1px 1px 0px rgba(19, 10, 3, 0.663);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  
 }
 
-/* MENU */
-nav a {
-  color: white;
+nav > a {
+  color: rgb(255, 72, 0);
   margin-right: 15px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+  padding: 10px;
+  
+  
+
 }
 
-nav a:hover {
-  text-decoration: underline;
+nav > a:hover {
+  color: orange;
+  
+
 }
 
-/* CONTEÚDO PRINCIPAL */
-main {
-  background-color: white;
-  margin-top: 20px;
-  border-radius: 8px;
+main p{
+  font-size: 20px;
+
+
 }
 
-/* ARTIGO */
-article h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #2e7d32;
+main h1{
+  font-size: 50px;
+
 }
 
-article p {
-  margin-bottom: 15px;
-  font-size: 1rem;
+main h2{
+  font-size:30px ;
 }
 
-/* FOOTER */
+main img{
+  width: 100%;
+}
+
+
+
+
+
 footer {
   margin-top: 20px;
   text-align: center;
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 18px;
+  color: white;
+  padding: 5px;
+  background-color: #bcbaba66;
 }
